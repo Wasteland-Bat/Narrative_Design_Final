@@ -8,6 +8,9 @@ using UnityEngine.EventSystems;
 public class InkManager : MonoBehaviour
 {
     [SerializeField]
+    TextAsset inkStoryJSON;
+
+    [SerializeField]
     Story currentStory;
 
     [SerializeField]
@@ -24,7 +27,9 @@ public class InkManager : MonoBehaviour
     public bool inkIsPlaying;
 
     public bool isReady = true;
-    // Start is called before the first frame update
+
+    private const string SPEAKER = "speaker";
+
     void Start()
     {
         StoryPanel.SetActive(false);
@@ -37,9 +42,10 @@ public class InkManager : MonoBehaviour
             choicesText[index] = choice.GetComponentInChildren<TextMeshProUGUI>();
             index++;
         }
+
+        StartStory(inkStoryJSON);
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (!inkIsPlaying)
@@ -60,6 +66,11 @@ public class InkManager : MonoBehaviour
         StoryPanel.SetActive(true);
         isReady = false;
 
+        /*currentStory.BindExternalFunction("hiUnity", (string hiMessage) =>
+        {
+            Debug.Log(hiMessage);
+        });*/
+
         ContinueStory();
     }
 
@@ -69,6 +80,7 @@ public class InkManager : MonoBehaviour
         {
             storyText.text = currentStory.Continue();
             DisplayChoices();
+            HandleTags(currentStory.currentTags);
         }
         else
         {
@@ -79,6 +91,8 @@ public class InkManager : MonoBehaviour
     void ExitStory()
     {
         currentStory.ResetState();
+        //currentStory.UnbindExternalFunction("hiUnity");
+
         inkIsPlaying = false;
         StoryPanel.SetActive(false);
 
@@ -119,5 +133,31 @@ public class InkManager : MonoBehaviour
     public void MakeChoice(int choiceIndex)
     {
         currentStory.ChooseChoiceIndex(choiceIndex);
+    }
+
+    private void HandleTags(List<string> currentTags)
+    {
+        foreach (string tag in currentTags)
+        {
+            string[] splitTag = tag.Split(':');
+
+            string tagKey = splitTag[0].Trim();
+            string tagValue = splitTag[1].Trim();
+
+            switch (tagKey)
+            {
+                case SPEAKER:
+                    if (tagValue == "one")
+                    {
+                        Debug.Log("this is speaker one");
+                    }
+                    break;
+
+                default:
+                    Debug.LogWarning("an unknown key was found: " + tagKey);
+                    break;
+            }
+        }
+
     }
 }
