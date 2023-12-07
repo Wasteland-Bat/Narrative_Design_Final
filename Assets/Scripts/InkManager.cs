@@ -22,16 +22,23 @@ public class InkManager : MonoBehaviour
     [SerializeField]
     GameObject[] choices;
 
+    [SerializeField]
+    GameObject maggie;
+
+    MaggieScript maggieScript;
+
     TextMeshProUGUI[] choicesText;
 
     public bool inkIsPlaying;
 
     public bool isReady = true;
 
-    private const string SPEAKER = "speaker";
+    private const string MAGGIE = "maggie";
 
     void Start()
     {
+        maggieScript = maggie.GetComponent<MaggieScript>();
+
         StoryPanel.SetActive(false);
 
         choicesText = new TextMeshProUGUI[choices.Length];
@@ -127,12 +134,13 @@ public class InkManager : MonoBehaviour
             choices[i].gameObject.SetActive(false);
         }
 
-        EventSystem.current.SetSelectedGameObject(choices[0]);
+        //EventSystem.current.SetSelectedGameObject(choices[0]);
     }
 
     public void MakeChoice(int choiceIndex)
     {
         currentStory.ChooseChoiceIndex(choiceIndex);
+        ContinueStory();
     }
 
     private void HandleTags(List<string> currentTags)
@@ -146,10 +154,19 @@ public class InkManager : MonoBehaviour
 
             switch (tagKey)
             {
-                case SPEAKER:
-                    if (tagValue == "one")
+                case MAGGIE:
+                    if (tagValue == "closedSmile")
                     {
-                        Debug.Log("this is speaker one");
+                        maggieScript.ClosedSmile();
+                    } else if (tagValue == "openSmile")
+                    {
+                        maggieScript.OpenSmile();
+                    } else if (tagValue == "sad")
+                    {
+                        maggieScript.Sad();
+                    } else if (tagValue == "idle")
+                    {
+                        maggieScript.Idle();
                     }
                     break;
 
@@ -158,6 +175,5 @@ public class InkManager : MonoBehaviour
                     break;
             }
         }
-
     }
 }

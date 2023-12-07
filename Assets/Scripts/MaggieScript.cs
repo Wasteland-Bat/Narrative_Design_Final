@@ -4,15 +4,30 @@ using UnityEngine;
 
 public class MaggieScript : MonoBehaviour
 {
+    Animator anim;
     // Start is called before the first frame update
     void Start()
     {
-        
+        anim = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ClosedSmile()
     {
-        
+        anim.Play("closedSmile");
+    }
+
+    public void OpenSmile()
+    {
+        anim.Play("openSmile");
+    }
+
+    public void Sad()
+    {
+        anim.Play("sad");
+    }
+
+    public void Idle()
+    {
+        anim.Play("Idle");
     }
 }
