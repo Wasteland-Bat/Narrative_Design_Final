@@ -1,9 +1,9 @@
 
-== Start ==
 Fuck...
-*I really screwed it up this time -> again
-= again
+*I really screwed it up this time -> Start
+== Start ==
 // scene starts and maggie looks sad
+
 Oh...
 it's you again
 haha…
@@ -35,16 +35,13 @@ But I burnt through my energy too quickly
 And by the end I could barely stand
 // tearing up
 You were using your rage as fuel again
-
 * Wouldn’t you?
--> HonestTwo
+-> Again
 * No shit
--> HonestTwo
+-> Again
 
-== HonestTwo
-
-When it’s all you've got 
-You hold on
+== Again
+When it’s all you have to hold onto 
 It’s gotten me this far 
 It’s kept me alive 
 But how much longer?
@@ -112,6 +109,8 @@ Do you really need that?
 == Before
 ->Bullet
 == Bullet ==
+ Hic
+M: Hic
 M: I hate it here. I hate it so much.
 M: I wish I could just run off into the wastelands 
 M: But I know that if I really did that 
@@ -162,10 +161,3 @@ That was it
 That was the last ditch effort 
 
 -> END
-
-
-
-
-
-
-
