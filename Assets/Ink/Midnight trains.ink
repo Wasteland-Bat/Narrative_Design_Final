@@ -1,24 +1,28 @@
-
 Fuck...
-*I really screwed it up this time -> Start
+I really screwed it up this time
+-> Start
 == Start ==
-// scene starts and maggie looks sad
-
+// black screen and foley play
+// fade in  and maggie looks sad
+// let the scene sit for a sec
+//Maggie talking
 Oh...
 it's you again
 haha…
 I would tell you to fuck off 
 But I don't have it in me to say that right now
-Well it's nice to not be met with hostility for once
+// Spirit Talking
+Well it's nice to not be met with anger for once
 So I’ll take that small victory 
 But by the look of your face 
-I’m assuming you actually went through with the fight 
+I’m assuming the fight didn’t end well 
 * I Lost
 -> Honest
 * Does it Matter?
 -> Combative
 
 == Combative ==
+// Maggie Talking
 I’m still alive 
 That’s what you want right?
 Whatever fucked up part of my brain you are 
@@ -28,11 +32,14 @@ Whatever fucked up part of my brain you are
 -> Honest
 
 == Honest ==
-I was winning at the start
+I was winning
 …
 I was actually winning
-But I burnt through my energy too quickly
-And by the end I could barely stand
+But halfway through 
+I don’t know what happened 
+It’s like the world went fuzzy
+And then I could barely move
+
 // tearing up
 You were using your rage as fuel again
 * Wouldn’t you?
@@ -47,12 +54,16 @@ It’s kept me alive
 But how much longer?
 Rage is a potent flame 
 But it’s the type of fire that will burn you from the inside out
-I wouldn’t have had to live like that for much longer  
- 
- 
- 
+I know that
+You’ve said it a thousand times before
+Even then… 
+If I had won the tournament
+I wouldn’t have had to live like that anymore
 * I could've gotten out
 -> CouldLeave
+* That was my one chance to run
+-> CouldLeave
+
 == CouldLeave ==
 The scripts from that tournament could’ve changed everything 
 I finally would have had enough 
@@ -102,62 +113,130 @@ Do you really need that?
 * I hate you
 ->Rage
 == Tinker ==
+
 *Make robots
 ->Robots
 == Robots
+
 -> Before
 == Before
+
 ->Bullet
 == Bullet ==
- Hic
-M: Hic
-M: I hate it here. I hate it so much.
-M: I wish I could just run off into the wastelands 
-M: But I know that if I really did that 
-M: I would probably die a slow and stupid death within a week 
-M: As much as I hate to admit it 
-M: This city is my home
-M: But I despise this constant feeling of dread 
-M: I feel like I’m just waiting for someone to finally pull the trigger of a gun 
-M: that’s always been against the side of my head 
-* Hopeless
+// Maggie Talking
+I despise this constant feeling of dread 
+I feel like I’m just waiting for someone to finally pull the trigger of a gun 
+that’s always been against the side of my head 
+I know I wasn’t meant to live long 
+Something is going to kill me sooner or later
+Whether that’s the fighting 
+Or a stray bullet 
+But in the meantime 
+I’m just floating along
+Being pushed and pulled by forces far out of my control  
+There’s nothing I can really do
+// Spirit Talking
+And are you fine with that?
+Ha
+...
+Of course not 
+* But what else can I do
 -> Hopeless
-* Rage
+* I hate it
 ->Rage
 
+
 == Rage ==
+
 * Fuck you!
 -> EndingTwo
 == Glider==
-*Leave the city
+I would have finally gotten that glider
+The one you drool over whenever you go to the pylons?
+Yep 
+The X sprint-49
+Solar powered cells,
+Total control throttle, 
+And a kickass sounding engine too,
+Leading up to the fight, 
+I had dreams that I was riding the sprint 
+Blasting through the wastelands
+The roar of my engine
+Air free from the smog of the factory
+*I was finally free 
 ->GetOut
+* I actually got to see the stars
+->GetOut 
 = GetOut
-* Is that really it?
+I’ve never seen the stars before
+… 
+I heard from old man Leroy
+// spirit talking
+The owner of the bar right by your conapt?
+…
+Yes
+// spirit talking
+Can I finish my thought
+My Apologies
+…
+Please Continue
+//Maggie Talking
+He says that if you get far away enough from the city 
+You can see them
+And not like just one of them 
+But the entire sky is covered 
+He also said that people used to see stuff in the stars
+And made up  stories about them
 ->Bullet
 == Hopeless ==
 ->EndingThree
 
 == EndingOne ==
-get better
+//get better ending
     -> END
-
 == EndingTwo ==
-rage
+//rage ending
 FUCK YOU!
-M: You know what?
-M: Maybe I should just kill myself to take you out too
-S: And what would that do?
- S: You petulant child
-S: If there is an after life I would probably still be stuck with you.
-
-Maggie swings a the spirit 
+You think I’m happy like this?!?!? 
+Being choked to death by the factory smoke!?!?!?
+Or that I have to watch the people I care for suffer!?!?!
+I HATE IT!!
+If I could 
+I would burn every single Pylon to the ground 
+And the burn it all over again just to make sure I finished the job
+// Spirit Talking
+And what would that do?
+You petulant child
+// Maggie Talking
+It would make them suffer 
+Same way I have
+Same way everyone else in the sumps has too
 
     -> END
-    
-
-== EndingThree ==
-Honestly,
-That was it 
-That was the last ditch effort 
-
+ == EndingThree ==
+// LARD ending
+That fight was all I had left in me
+I’m so tired 
+Everyday feels like another tragedy
+When I check my phone
+I feel like I want to throw up
+Because I know something awful is going to happen
+And it’s only a matter of time until someone I love 
+Is going to have something awful happen to them
+When I walk down my neighborhood and see another memorial for some poor kid
+And their only fucking crime was being at the wrong place at the wrong time 
+I want to fucking sob my eyes out  
+I hate it
+It’s awful
+…
+But that’s entropy 
+What do you mean?
+I mean exactly what I’m saying
+The one thing thats keeping me going 
+Is the fact I’m already alive
+But if that were to change 
+I wouldn’t mind that either 
+It would  probably be for the better too
+And I know whatever stupid part of my brain that you are
+That’s been  
 -> END
