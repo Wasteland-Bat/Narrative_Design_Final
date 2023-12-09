@@ -6,6 +6,7 @@ I really screwed it up this time
 // fade in  and maggie looks sad
 // let the scene sit for a sec
 //Maggie talking
+#maggie:sad
 Oh...
 it's you again
 haha…
@@ -226,7 +227,7 @@ Same way everyone else in the sumps has too
 
     -> END
  == EndingThree ==
-// LARD ending
+// LDAR ending
 That fight was all I had left in me
 I’m so tired 
 Everyday feels like another tragedy
