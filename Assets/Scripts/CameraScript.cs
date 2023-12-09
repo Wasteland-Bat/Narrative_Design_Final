@@ -12,6 +12,9 @@ public class CameraScript : MonoBehaviour
     float shakeDuration;
 
     [SerializeField]
+    float trainShakeTimer;
+
+    [SerializeField]
     float shakeFreq;
 
     [SerializeField]
@@ -23,11 +26,14 @@ public class CameraScript : MonoBehaviour
     void Start()
     {
         perlin = vcam.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+        StartCoroutine(trainShake());
+        perlin.m_FrequencyGain = 0;
+        perlin.m_AmplitudeGain = 0;
     }
 
     public void CameraShake()
     {
-        
+        //Debug.Log("shake");
         StartCoroutine(cameraShakeTimer());
 
         perlin.m_FrequencyGain = shakeFreq;
@@ -40,5 +46,14 @@ public class CameraScript : MonoBehaviour
 
         perlin.m_AmplitudeGain = 0;
         perlin.m_FrequencyGain = 0;
+    }
+
+    IEnumerator trainShake()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(trainShakeTimer);
+            CameraShake();
+        }
     }
 }

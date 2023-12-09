@@ -25,6 +25,9 @@ public class InkManager : MonoBehaviour
     [SerializeField]
     GameObject maggie;
 
+    [SerializeField]
+    GameObject introManager;
+
     MaggieScript maggieScript;
 
     TextMeshProUGUI[] choicesText;
@@ -34,6 +37,7 @@ public class InkManager : MonoBehaviour
     public bool isReady = true;
 
     private const string MAGGIE = "maggie";
+    private const string SPIRIT = "spirit";
 
     void Start()
     {
@@ -66,6 +70,12 @@ public class InkManager : MonoBehaviour
         }
     }
 
+    public void ContinueClick()
+    {
+        ContinueStory();
+        Debug.Log("click");
+    }
+
     public void StartStory(TextAsset inkJSON)
     {
         currentStory = new Story(inkJSON.text);
@@ -91,7 +101,7 @@ public class InkManager : MonoBehaviour
         }
         else
         {
-            ExitStory();
+            //ExitStory();
         }
     }
 
@@ -168,6 +178,10 @@ public class InkManager : MonoBehaviour
                     {
                         maggieScript.Idle();
                     }
+                    break;
+
+                case SPIRIT:
+                    introManager.GetComponent<introScript>().SpiritAppear();
                     break;
 
                 default:
