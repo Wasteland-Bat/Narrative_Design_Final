@@ -54,6 +54,7 @@ It’s kept me alive
 But how much longer?
 Rage is a potent flame 
 But it’s the type of fire that will burn you from the inside out
+// Maggie Talking 
 I know that
 You’ve said it a thousand times before
 Even then… 
@@ -160,7 +161,7 @@ I had dreams that I was riding the sprint
 Blasting through the wastelands
 The roar of my engine
 Air free from the smog of the factory
-*I was finally free 
+*I was finally free from the haze
 ->GetOut
 * I actually got to see the stars
 ->GetOut 
@@ -199,7 +200,7 @@ You think I’m happy like this?!?!?
 Being choked to death by the factory smoke!?!?!?
 Or that I have to watch the people I care for suffer!?!?!
 I HATE IT!!
-If I could 
+If I could... 
 I would burn every single Pylon to the ground 
 And the burn it all over again just to make sure I finished the job
 // Spirit Talking
