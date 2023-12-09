@@ -57,7 +57,7 @@ But it’s the type of fire that will burn you from the inside out
 I know that
 You’ve said it a thousand times before
 Even then… 
-If I had won the tournament
+If I had won that stupid tournament
 I wouldn’t have had to live like that anymore
 * I could've gotten out
 -> CouldLeave
@@ -66,10 +66,13 @@ I wouldn’t have had to live like that anymore
 
 == CouldLeave ==
 The scripts from that tournament could’ve changed everything 
-I finally would have had enough 
--> WhatToDo
-== WhatToDo ==
+I finally would have had enough to get out of fighting
+And to leave the sumps 
+I could have even started living for myself a bit
+But that’s all gone
+//Spirit Talking
 What would you do with all those scripts
+//Maggie
 *I would have opened my own mech-shop
 -> MechaShop
 *I would have finally bought that glider
@@ -89,29 +92,23 @@ What would you do in the shop?
 -> Help
 
 = Help
-
 Do you really need that?
 * It would help
--> Better
+-> Love
 * Of Course
 -> CanDo
 
-== Better ==
-*You can still show them 
--> Love
 == Love ==
 *We can make things right
 -> EndingOne
 
 == CanDo ==
 
-*Pissed off
-->Pissed
-
-=Pissed 
-
+*Are you serious?
+->Rage
 * I hate you
 ->Rage
+
 == Tinker ==
 
 *Make robots
@@ -167,12 +164,13 @@ Air free from the smog of the factory
 ->GetOut
 * I actually got to see the stars
 ->GetOut 
+
 = GetOut
 I’ve never seen the stars before
 … 
 I heard from old man Leroy
 // spirit talking
-The owner of the bar right by your conapt?
+The owner of the bar by your conapt?
 …
 Yes
 // spirit talking
@@ -183,11 +181,11 @@ Please Continue
 //Maggie Talking
 He says that if you get far away enough from the city 
 You can see them
-And not like just one of them 
-But the entire sky is covered 
-He also said that people used to see stuff in the stars
-And made up  stories about them
+Can you imagine that?
+a whole sky filled with stars
+
 ->Bullet
+
 == Hopeless ==
 ->EndingThree
 
