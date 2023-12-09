@@ -25,10 +25,23 @@ I’m assuming the fight didn’t end well
 // Maggie Talking
 I’m still alive 
 That’s what you want right?
-Whatever fucked up part of my brain you are 
+Whatever stupid part of my brain
+That’s so hell bent on stopping what’s eventually going to happen 
+// Spirit Talking
+Death in inevitable 
+But in the meantime 
+I think it would be in both of our best interests 
+For you to not die 
+that’s why last time we spoke
+I said it wasn’t in your best interest 
+To not go through with the fight 
+But I know you
 -> Bluff
 
 = Bluff
+And in the time I’ve known you
+I’ve learned your tells 
+And I know how the fight ended
 -> Honest
 
 == Honest ==
