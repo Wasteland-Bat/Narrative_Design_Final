@@ -56,13 +56,12 @@ And then I could barely move
 
 // tearing up
 You were using your rage as fuel again
-* Wouldn’t you?
+* Wouldn’t you? [] When it’s all you have to hold onto 
 -> Again
 * No shit
 -> Again
 
 == Again
-When it’s all you have to hold onto 
 It’s gotten me this far 
 It’s kept me alive 
 But how much longer?
@@ -216,7 +215,7 @@ Or that I have to watch the people I care for suffer!?!?!
 I HATE IT!!
 If I could... 
 I would burn every single Pylon to the ground 
-And the burn it all over again just to make sure I finished the job
+And then burn it all over again just to make sure I finished the job
 // Spirit Talking
 And what would that do?
 You petulant child
@@ -232,24 +231,30 @@ That fight was all I had left in me
 I’m so tired 
 Everyday feels like another tragedy
 When I check my phone
-I feel like I want to throw up
+I feel like throwing up
 Because I know something awful is going to happen
 And it’s only a matter of time until someone I love 
 Is going to have something awful happen to them
 When I walk down my neighborhood and see another memorial for some poor kid
-And their only fucking crime was being at the wrong place at the wrong time 
+And their only goddamn crime was being at the wrong place at the wrong time 
 I want to fucking sob my eyes out  
 I hate it
 It’s awful
 …
 But that’s entropy 
+// Spirit Talking
 What do you mean?
+// Maggie Talking
 I mean exactly what I’m saying
-The one thing thats keeping me going 
+The one thing that's keeping me going 
 Is the fact I’m already alive
 But if that were to change 
-I wouldn’t mind that either 
-It would  probably be for the better too
-And I know whatever stupid part of my brain that you are
-That’s been  
+I wouldn’t care
+...
+It would probably be for the better too
+And I know whatever stupid part of my brain that made you 
+Is doing its best to keep us alive   
+So I'll keep going 
+For now 
+But I don't expect this train ride to last much longer
 -> END
