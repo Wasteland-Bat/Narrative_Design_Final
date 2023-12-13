@@ -4,6 +4,7 @@ using UnityEngine;
 using Ink.Runtime;
 using TMPro;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class InkManager : MonoBehaviour
 {
@@ -28,6 +29,12 @@ public class InkManager : MonoBehaviour
     [SerializeField]
     GameObject introManager;
 
+    [SerializeField]
+    Sprite maggieUI;
+
+    [SerializeField]
+    Sprite spiritUI;
+
     MaggieScript maggieScript;
 
     TextMeshProUGUI[] choicesText;
@@ -44,6 +51,7 @@ public class InkManager : MonoBehaviour
         maggieScript = maggie.GetComponent<MaggieScript>();
 
         StoryPanel.SetActive(false);
+        
 
         choicesText = new TextMeshProUGUI[choices.Length];
 
@@ -177,12 +185,19 @@ public class InkManager : MonoBehaviour
                     } else if (tagValue == "idle")
                     {
                         maggieScript.Idle();
+                    } else if (tagValue == "spirit")
+                    {
+                        introManager.GetComponent<introScript>().SpiritAppear();
+                    } else if (tagValue == "spiritTalking")
+                    {
+                        StoryPanel.GetComponent<Image>().sprite = spiritUI;
+                    } else if (tagValue == "maggieTalking")
+                    {
+                        StoryPanel.GetComponent<Image>().sprite = maggieUI;
                     }
                     break;
 
-                case SPIRIT:
-                    introManager.GetComponent<introScript>().SpiritAppear();
-                    break;
+               
 
                 default:
                     Debug.LogWarning("an unknown key was found: " + tagKey);

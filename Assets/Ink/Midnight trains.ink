@@ -6,10 +6,11 @@ I really screwed it up this time
 // fade in  and maggie looks sad
 // let the scene sit for a sec
 //Maggie talking
-#maggie:sad
+#maggie:spirit
 Oh...
 it's you again
 haha…
+#maggie:spiritTalking
 I would tell you to fuck off 
 But I don't have it in me to say that right now
 // Spirit Talking
